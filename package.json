@@ -1,0 +1,16 @@
+{
+  "name": "game-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "watch": "watchify src/main.js -o game.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^14.4.0",
+    "watchify": "^3.9.0"
+  }
+}
